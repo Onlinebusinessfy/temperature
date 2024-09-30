@@ -59,6 +59,9 @@ console.log(pi);
 //calculate the area of a circle
 const area=pi*5*5;
 console.log(area);
+//calculate the perimeter of a circle
+const perimeter=2*pi*5;
+console.log(perimeter);
 
 //PROMPT: this is a simple way to interact with a user
 
