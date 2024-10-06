@@ -3,18 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/finalreport.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>Introduction to JS</h1>
 
-    <div id="result">
+    <div id="result"></div>
 
+    <h1>Interactive Thermometer</h1>
+    <input type="number" id="temperatureInput" placeholder="Enter temperature" />
+    <select id="scaleInput">
+        <option value="C">Celsius</option>
+        <option value="F">Fahrenheit</option>
+    </select>
+    <button onclick="updateThermometer()">Set Temperature</button>
+    
+    <div class="thermometer">
+        <div class="mercury" id="mercury"></div>
     </div>
-    <button onclick="sayHello2()">Say Hello 2</button>
 
+    <div id="result"></div>
+
+    <script src="./scripts/finalreport.js"></script>
     <!--<script src="/scripts/script.js">-->
     <!-- <script src="/scripts/function.js"></script> -->
-    <script src="./scripts/conditions.js"></script>
+    <!-- <script src="./scripts/conditions.js"></script> -->
+    <!-- <script src="./scripts/loops.js"></script> -->
+    <!-- <script src="./scripts/arrays.js"></script> -->
 </body>
 </html>
